@@ -10,5 +10,7 @@ int main() {
 
     float hasil_bagi = (float) x / y;
 
+    printf("hasil dari %d ÷ %d = %.2f\n", x, y, hasil_bagi);
+
     return 0;
 }
