@@ -22,5 +22,9 @@ int main() {
         * <= → operator lebih kecil atau sama dengan
         * == → operator sama dengan
         * != → operator tidak sama dengan
+        todo Operator perbandingan digunakan untuk membandingkan dua nilai dan menghasilkan nilai boolean (true atau false).
+
+        ! = itu assignment operator (penugasan)
+        ! == itu comparison operator (perbandingan)
     */
 }
