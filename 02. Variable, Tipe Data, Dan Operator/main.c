@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int umur = 20;
     float tinggi = 175.5;
-    char grade = 'A';
 
-    printf("umur kamu : %d", umur);
-    printf("tinggi kamu : %.1f", tinggi);
-    printf("grade : %c", grade);
+    printf("umur kamu : %d\n", umur);
+    printf("tinggi kamu : %.1f\n", tinggi);
 
     return 0;
 }
