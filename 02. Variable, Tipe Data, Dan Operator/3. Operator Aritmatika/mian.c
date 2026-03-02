@@ -9,4 +9,6 @@ int main() {
     printf("a * b = %d\n", a * b); // Perkalian
     printf("a / b = %d\n", a / b); // Pembagian
     printf("a %% b = %d\n", a % b); // Modulus (sisa pembagian)
+
+    return 0;
 }
