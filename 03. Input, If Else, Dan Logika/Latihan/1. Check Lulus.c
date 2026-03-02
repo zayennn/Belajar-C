@@ -3,13 +3,13 @@
 int main() {
     int nilai;
 
-    print("masukan nilai ujian : ");
+    printf("masukan nilai ujian : ");
     scanf("%d", &nilai);
 
     if ( nilai >= 60 ) {
-        print("lulus");
+        printf("lulus");
     } else {
-        print("tidak lulus");
+        printf("tidak lulus");
     }
 
     return 0;
