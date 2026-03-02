@@ -13,6 +13,7 @@ int main() {
     /*
         * Penjelasan Operator:
         * + → operator penjumlahan
+        * - → operator pengurangan
     */
 
     return 0;
