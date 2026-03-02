@@ -14,6 +14,7 @@ int main() {
         * Penjelasan Operator:
         * + → operator penjumlahan
         * - → operator pengurangan
+        * * → operator perkalian
     */
 
     return 0;
