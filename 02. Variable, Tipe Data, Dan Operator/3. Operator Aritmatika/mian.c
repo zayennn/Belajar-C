@@ -15,6 +15,7 @@ int main() {
         * + → operator penjumlahan
         * - → operator pengurangan
         * * → operator perkalian
+        * / → operator pembagian
     */
 
     return 0;
