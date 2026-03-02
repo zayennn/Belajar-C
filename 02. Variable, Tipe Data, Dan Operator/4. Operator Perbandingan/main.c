@@ -20,5 +20,6 @@ int main() {
         * < → operator lebih kecil dari
         * >= → operator lebih besar atau sama dengan
         * <= → operator lebih kecil atau sama dengan
+        * == → operator sama dengan
     */
 }
