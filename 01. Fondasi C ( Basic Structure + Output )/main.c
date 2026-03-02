@@ -16,6 +16,8 @@ int main() { // ? ini adalah fungsi utama, artinya program akan mulai dari sini
     // ? kenapa harus int ? karena sistem operasi nunggu angka balikan dari program , biasa nya :
     // * 0 artinya sukses, selain itu artinya error
 
-    printf("Hello, World!\n");
+    // ? {} adalah blok kode, artinya semua yang ada di dalamnya akan dieksekusi
+
+    printf("Hello, World!\n"); // ? di c wajib pake titik koma (;) di akhir setiap statement, tandanya perintah selesai
     return 0;
 }
