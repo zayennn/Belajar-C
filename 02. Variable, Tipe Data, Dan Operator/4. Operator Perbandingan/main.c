@@ -19,5 +19,6 @@ int main() {
         * > → operator lebih besar dari
         * < → operator lebih kecil dari
         * >= → operator lebih besar atau sama dengan
+        * <= → operator lebih kecil atau sama dengan
     */
 }
