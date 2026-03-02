@@ -9,5 +9,5 @@ int main() {
     printf("tinggi kamu : %.1f", tinggi);
     printf("grade : %c", grade);
 
-    
+    return 0;
 }
