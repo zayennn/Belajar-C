@@ -6,7 +6,7 @@
 * • printf
 * • scanf
 * • dll 
-todo tanpa ini ( stdio.h ) bakalan error karena compiler gatau itu apa
+    todo tanpa ini ( stdio.h ) bakalan error karena compiler gatau itu apa
 */
 
 
