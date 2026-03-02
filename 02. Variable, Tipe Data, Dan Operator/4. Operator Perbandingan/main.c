@@ -17,5 +17,6 @@ int main() {
     /*
         * Penjelasan Operator Perbandingan:
         * > → operator lebih besar dari
+        * < → operator lebih kecil dari
     */
 }
