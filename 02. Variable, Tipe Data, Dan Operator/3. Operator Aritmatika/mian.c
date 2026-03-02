@@ -25,6 +25,8 @@ int main() {
         ? 10 / 3 = 3
         * Kenapa bukan 3.333 ?
         * karena dua-duanya int, c tidak otomatis bikin desimal.
+        ? kalo mau desimal :
+        * float hasil = (float) a / b; // ? kita harus cast salah satu nya ke float. ini nama nya casting
     */
 
     return 0;
