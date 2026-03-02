@@ -5,5 +5,11 @@ int main() {
     int b = 5;
 
     printf("a > b : %d\n", a > b); // true (1)
-    printf("a < b : %d\n", a < b); // false (0
+    printf("a < b : %d\n", a < b); // false (0)
+    printf("a >= b : %d\n", a >= b); // true (1)
+    printf("a <= b : %d\n", a <= b); // false (0)
+    printf("a == b : %d\n", a == b); // false (0)
+    printf("a != b : %d\n", a != b); // true (1)
+
+    
 }
