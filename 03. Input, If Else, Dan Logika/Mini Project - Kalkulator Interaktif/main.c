@@ -11,16 +11,16 @@ int main() {
     scanf("%d", &y);
 
     printf("pilih operator apa yang ingin anda gunakan (+, -, *, /) : ");
-    scanf("%c", &operator);
+    scanf(" %c", &operator);
 
-    if ( operator == "+" ) {
-        printf("hasil dari %d %c %d adalah : &d", x, operator, y, (x + y));
-    } else if ( operator == "-" ) {
-        printf("hasil dari %d %c %d adalah : &d", x, operator, y, (x - y));
-    } else if ( operator == "*" ) {
-        printf("hasil dari %d %c %d adalah : &d", x, operator, y, (x * y));
-    } else if ( operator == "/" ) {
-        printf("hasil dari %d %c %d adalah : &d", x, operator, y, (x / y));
+    if ( operator == '+' ) {
+        printf("hasil dari %d %c %d adalah : %d", x, operator, y, (x + y));
+    } else if ( operator == '-' ) {
+        printf("hasil dari %d %c %d adalah : %d", x, operator, y, (x - y));
+    } else if ( operator == '*' ) {
+        printf("hasil dari %d %c %d adalah : %d", x, operator, y, (x * y));
+    } else if ( operator == '/' ) {
+        printf("hasil dari %d %c %d adalah : %d", x, operator, y, (x / y));
     } else {
         printf("operator tidak valid!");
     }
