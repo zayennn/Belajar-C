@@ -2,7 +2,7 @@
 
 int main() {
     int a = 10;
-    int b = 5;
+    int b = 3;
     
     printf("a + b = %d\n", a + b); // Penjumlahan
     printf("a - b = %d\n", a - b); // Pengurangan
@@ -17,6 +17,11 @@ int main() {
         * * → operator perkalian
         * / → operator pembagian
         * % → operator modulus (sisa pembagian)
+        todo Operator aritmatika digunakan untuk melakukan operasi matematika pada variabel atau nilai.
+    */
+
+    /*
+        
     */
 
     return 0;
