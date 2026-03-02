@@ -10,5 +10,10 @@ int main() {
     printf("a / b = %d\n", a / b); // Pembagian
     printf("a %% b = %d\n", a % b); // Modulus (sisa pembagian)
 
+    /*
+        * Penjelasan Operator:
+        * + → operator penjumlahan
+    */
+
     return 0;
 }
