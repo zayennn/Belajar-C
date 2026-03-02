@@ -10,6 +10,7 @@ int main() {
     * %f → untuk menampilkan nilai float
     * %c → untuk menampilkan nilai char
     * %.1f → untuk menampilkan nilai float dengan 1 angka di belakang koma
+    * %s → untuk menampilkan nilai string
     */
 
     return 0;
