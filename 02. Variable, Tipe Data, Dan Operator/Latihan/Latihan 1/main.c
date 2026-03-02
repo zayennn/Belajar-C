@@ -6,6 +6,7 @@ int main() {
 
     printf("hasil dari %d + %d = %d\n", x, y, ( x + y ));
     printf("hasil dari %d - %d = %d\n", x, y, ( x - y ));
+    printf("hasil dari %d × %d = %d\n", x, y, ( x * y ));
 
     return 0;
 }
