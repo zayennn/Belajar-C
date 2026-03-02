@@ -7,7 +7,7 @@ int main() {
     printf("masukan umur anda : ");
     scanf("%d", &umur);
     printf("masukan tinggi anda : ");
-    scanf("%f", tinggi);
+    scanf("%f", &tinggi);
 
     if ( umur >= 18 && tinggi >= 160 ) {
         printf("memenuhi syarat");
