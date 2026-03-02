@@ -16,6 +16,7 @@ int main() {
         * - → operator pengurangan
         * * → operator perkalian
         * / → operator pembagian
+        * % → operator modulus (sisa pembagian)
     */
 
     return 0;
