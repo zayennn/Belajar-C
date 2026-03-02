@@ -7,4 +7,7 @@ int main() {
 
     printf("umur kamu : %d", umur);
     printf("tinggi kamu : %.1f", tinggi);
+    printf("grade : %c", grade);
+
+    
 }
