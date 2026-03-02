@@ -5,6 +5,7 @@ int main() {
     int y = 3;
 
     printf("hasil dari %d + %d = %d", x, y, ( x + y ));
+    printf("hasil dari %d - %d = %d", x, y, ( x - y ));
 
     return 0;
 }
