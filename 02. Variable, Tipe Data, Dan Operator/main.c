@@ -6,5 +6,5 @@ int main() {
     char grade = "a";
 
     printf("umur kamu : %d", umur);
-    
+    printf("tinggi kamu : %.1f", tinggi);
 }
