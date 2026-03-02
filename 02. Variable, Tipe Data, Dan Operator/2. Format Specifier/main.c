@@ -5,5 +5,12 @@ int main() {
 
     printf("umur kamu : %d\n", umur); // ? %d = format specifier untuk menampilkan nilai integer
 
+    /* Mapping penting:
+    * %d → untuk menampilkan nilai integer
+    * %f → untuk menampilkan nilai float
+    * %c → untuk menampilkan nilai char
+    * %.1f → untuk menampilkan nilai float dengan 1 angka di belakang koma
+    */
+
     return 0;
 }
