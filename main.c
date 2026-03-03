@@ -15,3 +15,5 @@ int main() {
         printf("hello world ke - %d \n", i);
     } while (i < 5);
 }
+
+// * perbedaan "while" dengan "do while" adalah do while akan jalan minimal 1x walaupun kondisi nya salah
