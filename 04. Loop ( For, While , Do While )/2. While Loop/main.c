@@ -17,3 +17,9 @@ int main() {
     
     return 0;
 }
+
+// * beda nya dengan for :
+// for lebih enak buat jumlah pasti
+// while lebih enak untuk kondisi
+
+// todo wajib ada i++, kalau gada bisa infinite loop
