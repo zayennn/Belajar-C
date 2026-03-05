@@ -10,3 +10,9 @@ int main() {
 
     return 0;
 }
+
+// * nama[] adalah parameter
+// * kenapa harus ada "[]" ? karena sebenarnya string di c adalah sebuah kumpulan string, contoh :
+// * fulan = f u l a n \0
+// * \0 adalah null terminator (penanda akhir string)
+
