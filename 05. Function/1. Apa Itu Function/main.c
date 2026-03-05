@@ -14,3 +14,5 @@ int main() {
 
     return 0;
 }
+
+// jadi gaperlu nulis printf 2x
