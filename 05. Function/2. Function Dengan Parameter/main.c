@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void sapa(char nama[]) {
-    printf("halo %c", nama);
+    printf("halo %c\n", nama);
 }
 
 int main() {
