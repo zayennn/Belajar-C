@@ -9,6 +9,7 @@ int main() {
     sapa("fulana");
 
     char nama[] = "test";
+    printf(nama);
 
     return 0;
 }
