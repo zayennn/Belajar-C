@@ -1,15 +1,12 @@
 #include <stdio.h>
 
 void sapa(char nama[]) {
-    printf("halo %c\n", nama);
+    printf("halo %s\n", nama);
 }
 
 int main() {
     sapa("fulan");
     sapa("fulana");
-
-    char nama[] = "test";
-    printf(nama);
 
     return 0;
 }
@@ -35,7 +32,7 @@ int main() {
 // todo ada cara lain untuk penulisan char yaitu *nama, contoh :
 /*
     ? void sapa(char *nama) {
-    ?   printf("halo %c", nama);
+    ?   printf("halo %s", nama);
     ? }
 */
 // * hasil nya sama saja kaya nama[]
