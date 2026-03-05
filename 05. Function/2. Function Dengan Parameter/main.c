@@ -8,6 +8,8 @@ int main() {
     sapa("fulan");
     sapa("fulana");
 
+    char nama[] = "test";
+
     return 0;
 }
 
@@ -28,3 +30,11 @@ int main() {
     nama[5] = 'a'
     nama[6] = '\0'
 */
+
+// todo ada cara lain untuk penulisan char yaitu *nama, contoh :
+/*
+    ? void sapa(char *nama) {
+    ?   printf("halo %c", nama);
+    ? }
+*/
+// * hasil nya sama saja kaya nama[]
