@@ -7,17 +7,17 @@ int main() {
 
     int jum_data = sizeof(n) / sizeof(n[0]);
 
-    for ( int i = 0; i < n[i]; i++ ) {
+    for ( int i = 0; i < jum_data; i++ ) {
         printf("nilai ke - %d : ", i + 1);
         scanf("%d", &n[i]);
     }
 
-    for ( int i = 0; i < n[i]; i++ ) {
+    for ( int i = 0; i < jum_data; i++ ) {
         total += n[i];
     }
     
     rata_rata = total / jum_data;
-    
+
     printf("%d\n", total);
     printf("%d\n", rata_rata);
 
