@@ -10,3 +10,14 @@ int hitungTotal(int n) {
     return total;
 }
 
+int main() {
+    int n;
+
+    printf("hitung total angka n : ");
+    scanf("%d", n);
+
+    int hasil = hitungTotal(n);
+    printf("%d", hasil);
+
+    return 0;
+}
