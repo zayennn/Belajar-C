@@ -12,7 +12,7 @@ int main() {
 
     for ( int i = 0; i < 5; i++ ) {
         total += n[i];
-        rata_rata = total / i;
+        rata_rata = total / i + 1;
     }
 
     printf("%d\n", total);
