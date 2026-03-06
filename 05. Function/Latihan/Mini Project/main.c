@@ -10,10 +10,10 @@ int generateAngka() {
     return com;
 }
 
-void jalankanGame() {
+char jalankanGame() {
     int tebakan_user;
 
-    printf("tebak angka 1-10 : ");
+    tampilkanIntro();
     scanf("%d", &tebakan_user);
 
     int kesempatan_user = 5;
@@ -38,4 +38,10 @@ void jalankanGame() {
             break;
         }
     }
+}
+
+int main() {
+    char hasil = jalankanGame();
+
+    return 0;
 }
