@@ -2,6 +2,7 @@
 
 int main() {
     int n[5];
+    int total = 0;
 
     for ( int i = 0; i < 5; i++ ) {
         printf("nilai ke - %d : ", i + 1);
@@ -9,8 +10,11 @@ int main() {
     }
 
     for ( int i = 0; i < n[i]; i++ ) {
-        printf("%d\n", n[i]);
+        total += n[i];
+        // printf("%d\n", n[i]);
     }
+
+    printf("%d", total);
 
     return 0;
 }
