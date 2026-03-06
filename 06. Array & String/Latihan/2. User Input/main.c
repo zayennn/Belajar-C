@@ -5,16 +5,19 @@ int main() {
     int total = 0;
     int rata_rata;
 
-    for ( int i = 0; i < 5; i++ ) {
+    int jum_data = sizeof(n) / sizeof(n[0]);
+
+    for ( int i = 0; i < n[i]; i++ ) {
         printf("nilai ke - %d : ", i + 1);
         scanf("%d", &n[i]);
     }
 
-    for ( int i = 0; i < 5; i++ ) {
+    for ( int i = 0; i < n[i]; i++ ) {
         total += n[i];
-        rata_rata = total / 5;
     }
-
+    
+    rata_rata = total / jum_data;
+    
     printf("%d\n", total);
     printf("%d\n", rata_rata);
 
