@@ -6,6 +6,7 @@ void tampilkanIntro() {
 }
 
 int generateAngka() {
+    srand(time(NULL));
     int com = rand() % 10 + 1;
     return com;
 }
