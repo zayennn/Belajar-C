@@ -23,17 +23,17 @@ char jalankanGame() {
     while (5 > 0) {
         if (tebakan_user != generateAngka()) {
             if (tebakan_user > generateAngka()) {
+                kesempatan_user--;
                 printf("tebakan mu salah, angka mu terlalu besar...\n");
                 printf("sisa kesempatan mu : %d\n", kesempatan_user);
                 printf("tebak angka 1-10 : ");
                 scanf("%d", &tebakan_user);
-                kesempatan_user--;
             } else if (tebakan_user < generateAngka()) {
+                kesempatan_user--;
                 printf("tebakan mu salah, angka mu terlalu kecil...\n");
                 printf("sisa kesempatan mu : %d\n", kesempatan_user);
                 printf("tebak angka 1-10 : ");
                 scanf("%d", &tebakan_user);
-                kesempatan_user--;
             } 
         } else {
             printf("tebakan mu benar");
