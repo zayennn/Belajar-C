@@ -5,7 +5,7 @@ int main() {
 
     for ( int i = 0; i < 5; i++ ) {
         printf("nilai ke - %d : ", i + 1);
-        scanf("%d", &n);
+        scanf("%d", &n[i]);
     }
 
     for ( int i = 0; i < n[i]; i++ ) {
