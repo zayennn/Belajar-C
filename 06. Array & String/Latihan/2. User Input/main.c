@@ -10,7 +10,7 @@ int main() {
         scanf("%d", &n[i]);
     }
 
-    for ( int i = 0; i < n[i]; i++ ) {
+    for ( int i = 0; i < 5; i++ ) {
         total += n[i];
         rata_rata = total / i;
     }
