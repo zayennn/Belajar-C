@@ -5,7 +5,7 @@ int main() {
     int max = 0;
 
     for ( int i = 0; i < arr[i]; i++ ) {
-        
+        printf("%d", arr[i]);
     }
 
     return 0;
