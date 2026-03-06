@@ -3,7 +3,9 @@
 int main() {
     char nama[] = "capytanic";
 
-    printf("%s", nama);
+    for ( int i = 0; i < nama[i]; i++ ) {
+        printf("%c", nama[i]);
+    }
 
     return 0;
 }
