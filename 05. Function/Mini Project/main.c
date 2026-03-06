@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 void tampilkanIntro() {
     printf("masukan tebakan mu (1-10) : ");
