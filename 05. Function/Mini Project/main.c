@@ -20,7 +20,7 @@ char jalankanGame() {
 
     int kesempatan_user = 5;
 
-    while (5 > 0) {
+    while (kesempatan_user > 0) {
         if (tebakan_user != generateAngka()) {
             if (tebakan_user > generateAngka()) {
                 kesempatan_user--;
