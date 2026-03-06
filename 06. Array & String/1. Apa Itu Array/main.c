@@ -18,8 +18,8 @@
 int main() {
     int angka[5] = {10, 20, 30, 40, 50};
 
-    printf("%d", angka[2]);
-    printf("%d", angka[4]);
+    printf("%d\n", angka[2]);
+    printf("%d\n", angka[4]);
 
     return 0;
 }
