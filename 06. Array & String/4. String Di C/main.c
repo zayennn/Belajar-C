@@ -3,7 +3,7 @@
 int main() {
     char nama[] = "capytanic";
 
-    printf("%c", nama);
+    printf("%s", nama);
 
     return 0;
 }
