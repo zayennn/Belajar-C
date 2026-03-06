@@ -15,8 +15,8 @@ int main() {
         rata_rata = total / i;
     }
 
-    printf("%d", total);
-    printf("%d", rata_rata);
+    printf("%d\n", total);
+    printf("%d\n", rata_rata);
 
     return 0;
 }
