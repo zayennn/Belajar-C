@@ -3,7 +3,7 @@
 int main() {
     int n[5];
     int total = 0;
-    int rata_rata;
+    int rata_rata = 0;
 
     for ( int i = 0; i < 5; i++ ) {
         printf("nilai ke - %d : ", i + 1);
