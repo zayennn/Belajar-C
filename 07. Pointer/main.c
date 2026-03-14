@@ -7,3 +7,13 @@
     1004        20
     1008        30
 */
+
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+
+    printf("%d", x);
+
+    return 0;
+}
