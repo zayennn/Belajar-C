@@ -13,6 +13,10 @@
 
     * artinya :
     alamat 1000 → nilai 10
+
+    sekarang muncul pertanyaan gimana kalo pengen tau alamat dari variable itu ?
+    * jawabannya = pointer
+    pointer adalah variable yang menyimpan alamat memori
 */
 
 #include <stdio.h>
