@@ -10,6 +10,9 @@
 
     variable bisa :
     ? int a = 10;
+
+    * artinya :
+    alamat 1000 → nilai 10
 */
 
 #include <stdio.h>
