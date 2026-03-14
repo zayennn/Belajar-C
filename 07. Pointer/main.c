@@ -18,13 +18,3 @@
     * jawabannya = pointer
     pointer adalah variable yang menyimpan alamat memori
 */
-
-#include <stdio.h>
-
-int main() {
-    int x = 10;
-
-    printf("%d", x);
-
-    return 0;
-}
