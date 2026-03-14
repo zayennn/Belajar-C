@@ -1,4 +1,4 @@
 /*
     apa itu pointer ?
-    komputer menyimpan data di memory
+    komputer menyimpan data di memory (RAM)
 */
