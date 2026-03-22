@@ -11,7 +11,7 @@ int main() {
     printf("masukan nilai kedua : ");
     scanf("%f", &y);
 
-    printf("hasil dari %f ÷ %f = %.2f", x, y, (x + y));
+    printf("hasil dari %.1f ÷ %.1f = %.2f", x, y, (x + y));
 
     // penjumlahan = +
     // pengurangan = -
