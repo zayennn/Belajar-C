@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int x;
+    int x; // * untuk tipe data number/integer menggunakan %d
+    char y; // * untuk tipe data char menggunakan %c
+    float z; // * untuk tipe data float menggunakan %f
 
     printf("masukan nilai x : ");
     scanf("%d", &x);
