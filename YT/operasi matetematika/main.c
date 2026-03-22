@@ -9,5 +9,7 @@ int main() {
     scanf("%d", &x);
 
     printf("masukan nilai kedua : ");
-    
+    scanf("%d", &y);
+
+    printf("hasil dari %d + %d = %d", x, y, (x + y));
 }
