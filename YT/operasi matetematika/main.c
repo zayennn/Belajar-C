@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int x, y;
+    float x, y;
 
     printf("selamat datang di program operasi matematika!\n\n");
 
     printf("masukan nilai pertama : ");
-    scanf("%d", &x);
+    scanf("%f", &x);
 
     printf("masukan nilai kedua : ");
-    scanf("%d", &y);
+    scanf("%f", &y);
 
-    printf("hasil dari %d ÷ %d = %.2f", x, y, (x + y));
+    printf("hasil dari %f ÷ %f = %.2f", x, y, (x + y));
 
     // penjumlahan = +
     // pengurangan = -
