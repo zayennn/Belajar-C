@@ -12,4 +12,10 @@ int main() {
     scanf("%d", &y);
 
     printf("hasil dari %d + %d = %d", x, y, (x + y));
+
+    // penjumlahan = +
+    // pengurangan = -
+    // perkalian = *
+    // pembagian = /
+    // modulus = %
 }
