@@ -8,5 +8,6 @@ int main() {
     printf("masukan nilai pertama : ");
     scanf("%d", &x);
 
-    printf
+    printf("masukan nilai kedua : ");
+    
 }
