@@ -5,5 +5,8 @@ int main() {
 
     printf("selamat datang di program operasi matematika!\n\n");
 
+    printf("masukan nilai pertama : ");
+    scanf("%d", &x);
+
     printf
 }
